@@ -1,3 +1,4 @@
+import { NavLink } from "react-router"
 
 
 const Home = () => {
@@ -22,19 +23,19 @@ const Home = () => {
           </section>
         </section>
         <section className="mt-16 p-4 flex max-sm:flex-wrap w-full justify-between items-center gap-3">
-        <a href="/html-page" className="border-2 rounded-md p-4 w-full bg-gradient-to-r from-indigo-950 from-50% to-indigo-800" >      
+        <NavLink to="/html-page" className="border-2 rounded-md p-4 w-full bg-gradient-to-r from-indigo-950 from-50% to-indigo-800" >      
             <h1 className="font-semibold text-xl text-white text-center">HTML</h1>
-        </a>  
-        <a href="/css-page" className="border-2 rounded-md p-4 w-full bg-gradient-to-r from-indigo-950 from-50% to-indigo-800" >
+        </NavLink>  
+        <NavLink to="/css-page" className="border-2 rounded-md p-4 w-full bg-gradient-to-r from-indigo-950 from-50% to-indigo-800" >
             <h1 className="font-semibold text-xl text-white text-center">CSS</h1>
-        </a>
+        </NavLink>
 
-          <a href="/js-page" className="border-2 rounded-md p-4 w-full bg-gradient-to-r from-indigo-950 from-50% to-indigo-800" >
+          <NavLink to="/js-page" className="border-2 rounded-md p-4 w-full bg-gradient-to-r from-indigo-950 from-50% to-indigo-800" >
             <h1 className="font-semibold text-xl text-white text-center">JavaScript</h1>
-          </a>
-          <a href="/react-page" className="border-2 rounded-md p-4 w-full bg-gradient-to-r from-indigo-950 from-50% to-indigo-800" >
+          </NavLink>
+          <NavLink to="/react-page" className="border-2 rounded-md p-4 w-full bg-gradient-to-r from-indigo-950 from-50% to-indigo-800" >
             <h1 className="font-semibold text-xl text-white text-center">React</h1>
-          </a>
+          </NavLink>
           
         </section>
 
