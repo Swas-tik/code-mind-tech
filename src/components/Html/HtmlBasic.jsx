@@ -2,7 +2,7 @@ const HtmlBasic = () => {
   return (
     <>
       <section className="w-full p-4">
-        <h1 className="text-6xl">HTML Basic Example</h1>
+        <h1 className="sm:text-6xl text-5xl">HTML Basic Example</h1>
         <hr className="mt-4" />
         <p className="text-lg mt-4">
           In the chapter we will learn some basic HTML examples.{" "}

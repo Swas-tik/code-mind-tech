@@ -4,7 +4,7 @@ const CssIntroduction = () => {
   return (
     <>
       <section className="w-full p-4">
-      <h1 className="text-6xl">CSS Introduction</h1>
+      <h1 className="sm:text-6xl text-5xl">CSS Introduction</h1>
       <hr className="mt-4"/>
       <p className="text-lg mt-4">CSS is the language we use to style a Web page.</p>
       <hr className="mt-4"/>

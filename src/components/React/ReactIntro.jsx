@@ -4,11 +4,11 @@ const ReactIntro = () => {
   return (
     <>
       <section className="w-full p-4">
-        <h1 className="text-6xl">React Introduction</h1>
+        <h1 className="sm:text-6xl text-5xl">React Introduction</h1>
         <hr className="mt-4"/>
         <main className="mt-4 p-4 text-lg">
           <h2 className="text-2xl font-medium">What is react?</h2>
-          <section className="mt-4 leading-10">
+          <section className="mt-4 sm:leading-10 leading-7">
             <p>React, sometimes referred to as a frontend JavaScript framework, is a JavaScript library created by Facebook.</p>
             <p>React is a tool for building UI components.</p>  
           </section>

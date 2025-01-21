@@ -3,13 +3,13 @@
 const Home = () => {
   return (
     <>
-      <div className="w-full h-auto mt-1 bg-gradient-to-b from-indigo-950 from-60% to-indigo-800 flex flex-col ">
+      <div className="w-full h-full mt-1 bg-gradient-to-b from-indigo-950 from-60% to-indigo-800 flex flex-col">
         <section className="p-4 w-full flex">
           <section className="p-4 w-full">
             <h1 className="text-5xl font-bold text-white font-sans leading-normal">Internship Programs and Development</h1>
             <p className="mt-16 text-white text-lg">The only organization that offers <strong className="text-indigo-500">internship</strong> training and <strong className="text-indigo-500">development</strong> with 100% placement assistance in top, in-demand skills and live projects.</p>
           </section>
-          <section className="p-4  w-full">
+          <section className="sm:p-4  sm:w-full  max-sm:hidden">
             <div className="w-80 h-auto border-2 rounded-2xl bg-white shadow-xl text-indigo-950 p-4">
               <div>
                   <h1 className="font-bold">kalyani yadav</h1>
@@ -21,11 +21,21 @@ const Home = () => {
             </div>
           </section>
         </section>
-        <section className="mt-16 p-4 flex w-full justify-between items-center gap-3">
-          <div className="border-2 rounded-md p-4 w-1/2 bg-gradient-to-r from-indigo-950 from-50% to-indigo-800 h-full"><h1 className="font-semibold text-xl text-white text-center">HTML</h1></div>
-          <div className="border-2 rounded-md p-4 w-1/2 bg-gradient-to-r from-indigo-950 from-50% to-indigo-800"><h1 className="font-semibold text-xl text-white text-center">CSS</h1></div>
-          <div className="border-2 rounded-md p-4 w-1/2 bg-gradient-to-r from-indigo-950 from-50% to-indigo-800"><h1 className="font-semibold text-xl text-white text-center">JavaScript</h1></div>
-          <div className="border-2 rounded-md p-4 w-1/2 bg-gradient-to-r from-indigo-950 from-50% to-indigo-800"><h1 className="font-semibold text-xl text-white text-center">React</h1></div>
+        <section className="mt-16 p-4 flex max-sm:flex-wrap w-full justify-between items-center gap-3">
+        <a href="/html-page" className="border-2 rounded-md p-4 w-full bg-gradient-to-r from-indigo-950 from-50% to-indigo-800" >      
+            <h1 className="font-semibold text-xl text-white text-center">HTML</h1>
+        </a>  
+        <a href="/css-page" className="border-2 rounded-md p-4 w-full bg-gradient-to-r from-indigo-950 from-50% to-indigo-800" >
+            <h1 className="font-semibold text-xl text-white text-center">CSS</h1>
+        </a>
+
+          <a href="/js-page" className="border-2 rounded-md p-4 w-full bg-gradient-to-r from-indigo-950 from-50% to-indigo-800" >
+            <h1 className="font-semibold text-xl text-white text-center">JavaScript</h1>
+          </a>
+          <a href="/react-page" className="border-2 rounded-md p-4 w-full bg-gradient-to-r from-indigo-950 from-50% to-indigo-800" >
+            <h1 className="font-semibold text-xl text-white text-center">React</h1>
+          </a>
+          
         </section>
 
       </div>
